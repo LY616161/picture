@@ -1,2 +1,10 @@
 server:
   port: 8081
+
+spring:
+  application:
+    name: so-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.234.1:8848
