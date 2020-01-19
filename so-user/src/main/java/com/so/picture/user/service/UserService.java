@@ -12,6 +12,6 @@ public class UserService {
     private UserMapper userMapper;
 
     public User getMovieByID(int userId){
-        return userMapper.queryUserById(2userId);
+        return userMapper.queryUserById(userId);
     }
 }
